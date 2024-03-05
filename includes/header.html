@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preload" as="img" href="logo_h.svg" max-width="100%">
+    <script src="https://kit.fontawesome.com/c0056d4561.js" crossorigin="anonymous"></script>
+    <link rel="preload" as="img" href="logo_h.svg" width="100%">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
     <title>Document</title>
@@ -12,16 +13,16 @@
     <header>
         <div class = "top">
         <div class = "logo">
-            <img src="logo_h.svg" alt="logo" width="240px" height="276px">
+            <img src="logo_h.svg" alt="logo" width="240px" height="76px">
         </div>
         <div class = "search">
-            <form name = "search"> 
+            <form class = "searchForm"> 
             <form>
                     <input type = "text"
                             placeholder = "Search..."
                             name = "search"
-                            class = "fs-nav">
-                    <input type = "submit"> <i class="fa-solid fa-magnifying-glass fs-nav"></i>
+                            class = "searchField">
+                   <button type = "submit" class = "searchBtn"><i class="fa-solid fa-magnifying-glass fs-nav"></i></button>
                     </form>
         </div>
         <div class = "btns">
@@ -29,11 +30,13 @@
             <button class = "signUpBtn">Sign Up</button>
             </div>
         </div>
+        <hr style="border: 1px solid #6a6a6a; margin-bottom: 10px;">
             <nav class = "Primary_nav"> 
                 <ul>
                     <li><a href ="#">Home</a></li>
+                    <li><a href ="#">Products</a></li>
                     <li><a href ="#">About Us</a></li>
-                    <li><a href ="#">Contacts Us</a></li>
+                    <li><a href ="#">Contact Us</a></li>
                 </ul>
             </nav>
     </header>
