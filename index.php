@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./assets/styles/style.css">
-    <link rel="preload" as="img" href="./assets/img/logo_h.svg" width="100%">
+    <link rel="preload" as="image" href="./assets/img/logo_h.svg" width="100%">
+    <script src="https://kit.fontawesome.com/c0056d4561.js" crossorigin="anonymous"></script>
 
     <title>Document</title>
 </head>
@@ -12,6 +13,7 @@
     <header>
       <?php include "./includes/header.html" ?>
     </header>
+
     <main>
         <section class="intro">
     <h1>Your Most Trusted Computer Online Shop</h1>
