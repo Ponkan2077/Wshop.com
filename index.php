@@ -60,17 +60,27 @@
     </div>
 </section>
 
-<section class="Reviews">
+<section class="reviews">
     <h3>Reviews</h3>
+    <div class="wrapBoxReview">
     <div class="boxReview"></div>
     <div class="boxReview"></div>
     <div class="boxReview"></div>
+    </div>
+   
 </section>
-<section class="paymentMethods">
-    <h2>Payment Methods</h2>
-    <div class="boxPayment"></div>
+
+
+<section class="payment">
+   <div class="paymentMethods">
+   <span>Payment Methods</span>
+   </div> 
+    <div class="boxPayment">
+        <img src="./assets/img/payments.svg" width="100%">
+    </div>
 </section>
 </main>
+
 <footer>
     <?php include "./includes/footer.html" ?>
 </footer>
