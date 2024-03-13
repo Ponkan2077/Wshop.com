@@ -11,9 +11,9 @@
     <title>Document</title>
 </head>
 <body>
-    <!--<header>
-      <--?php include "./includes/header.html" ?>
-    </header> -->
+    <header>
+      <?php include "./includes/header.html" ?>
+    </header> 
 
     <main class="mainLanding">
         <section class="intro">
@@ -30,11 +30,15 @@
     <div class="bottomProduct">
     <div class ="leftProduct">
         <h3>Pre-Built Systems</h3>
-        <div class="boxProduct"></div>
+        <div class="boxProduct">
+            <div class="anyProduct"></div>
+        </div>
     </div>
     <div class ="rightProduct">
         <h3>Laptops</h3>
-        <div class="boxProduct"></div>
+        <div class="boxProduct">
+        <div class="anyProduct"></div>
+        </div>
     </div>
 </div>
 </section>
@@ -63,15 +67,19 @@
 
 <section class="reviews">
     <h3>Reviews</h3>
+    <div class="desktopScreen">
     <div class="wrapBoxReview">
     <div class="boxReview"></div>
     <div class="boxReview"></div>
     <div class="boxReview"></div>
+</div>
+</div>
+    <div class="mobileScreen"> 
+    <div class="boxReview"></div>
     </div>
-   
 </section>
 
-
+<!--
 <section class="payment">
    <div class="paymentMethods">
    <span>Payment Methods</span>
@@ -80,6 +88,7 @@
         <img src="./assets/img/payments.svg" width="100%">
     </div>
 </section>
+-->
 </main>
 
 <!--<footer>
