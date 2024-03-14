@@ -142,14 +142,14 @@ i {
 .wrapFooter{
     Display: flex;
     flex-direction: column;
-    margin: 20px 130px 10px 130px;
+    /*margin: 20px 130px 10px 130px;*/
     border-top: 3px solid white;
     line-height: 2em;
 
 }
 
 .wrapFooter span{
-    font-size: 32px;
+    font-size: 2rem;
 }
 .wrapFooterTop {
     display: flex;
@@ -206,7 +206,7 @@ i {
 /*first section*/
 .intro {
     margin-top: 150px;
-    height: 400px;
+    margin-bottom: 150px;
 }
 .intro h1 {
     font-size: 4rem;

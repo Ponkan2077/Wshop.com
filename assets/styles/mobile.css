@@ -1,5 +1,5 @@
 @media screen {
-    header
+    /*header*/
     header {
         width: 100%;
     }
@@ -28,6 +28,13 @@
         color: #6a6a6a;
      }
 
+     /*footer*/
+
+     .wrapfooter span{
+        font-size: 1rem;
+     }
+
+     
     /*Landing Page*/
 
     .mainLanding {
@@ -102,6 +109,14 @@
         row-gap: 50px;
         width: 100%;
         align-items: self-start;
+    }
+
+    .GPUS, .CPUS, .RAMS, .MOTHERBOARD {
+        width: inherit;
+    }
+
+    .box {
+        width: inherit;
     }
 
     .boxSellers {
