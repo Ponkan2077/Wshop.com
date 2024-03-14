@@ -29,12 +29,22 @@
      }
 
      /*footer*/
-
-     .wrapfooter span{
-        font-size: 1rem;
+     .wrapFooter {
+        font-size: 0.78rem;
+     }
+     .wrapFooter span{
+        font-size: 1.25rem;
+     }
+     
+     .rights span {
+        font-size: .7rem;
      }
 
-     
+     .logoFooter {
+        width: 70px;
+        height: 30px; 
+     }
+
     /*Landing Page*/
 
     .mainLanding {
@@ -133,5 +143,16 @@
     .boxReview {
         width: 100%;
     }
-    
+
+    .reviews {
+        margin-bottom: 30px;
+    }
+    /*fifth section*/
+
+    .paymentMethods {
+        margin-top: 10px;
+    }
+    .paymentMethods span {
+        font-size: 2rem;
+    }
 }

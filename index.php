@@ -79,7 +79,7 @@
     </div>
 </section>
 
-<!--
+
 <section class="payment">
    <div class="paymentMethods">
    <span>Payment Methods</span>
@@ -88,11 +88,10 @@
         <img src="./assets/img/payments.svg" width="100%">
     </div>
 </section>
--->
 </main>
 
-<!--<footer>
-    ?php include "./includes/footer.html" ?>
-</footer> -->
+<footer>
+    <?php include "./includes/footer.html" ?>
+</footer> 
 </body>
 </html>

@@ -142,7 +142,7 @@ i {
 .wrapFooter{
     Display: flex;
     flex-direction: column;
-    /*margin: 20px 130px 10px 130px;*/
+    margin: 20px 30px 10px 30px;
     border-top: 3px solid white;
     line-height: 2em;
 
@@ -198,9 +198,13 @@ i {
 }
 
 .rights  span{
-    font-size: 16px;
+    font-size: 1rem;
 }
 
+.logoFooter img {
+    object-fit: contain;
+    height: inherit;
+}
 /*Landing Page*/
 
 /*first section*/
