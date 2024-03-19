@@ -314,7 +314,6 @@ i {
 .wrapTopSellers {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 }
 
 .GPUS, .CPUS, .RAMS, .MOTHERBOARD {

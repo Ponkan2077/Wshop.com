@@ -1,0 +1,135 @@
+@media screen {
+    /*header*/
+    .desktopScreen {
+        display: none;
+    }
+    /*footer*/
+
+    .wrapFooter {
+        font-size: 0.78rem;
+     }
+     .wrapFooter span{
+        font-size: 1.25rem;
+     }
+     
+     .rights span {
+        font-size: .7rem;
+     }
+
+     .logoFooter {
+        width: 70px;
+        
+        height: 30px; 
+     }
+    /*landing Page*/
+    .mainLanding {
+        margin: 0 30px 0 30px;
+   }
+   /*first section*/
+   .intro {
+    margin-top: 115px;
+}
+.intro h1 {
+    font-size: 2.5rem;
+    width: 16ch;
+}
+.intro p {
+margin-top: 30px;
+font-size: 1rem;
+}
+.intro button {
+    width: 150px;
+    height: 50px;
+    font-size: 1.1rem;
+    margin-top: 50px;
+}
+   /*second section*/
+   .wrapTopSellers {
+    flex-direction: column;
+}
+ .topProduct {
+    flex-direction: row;
+
+}
+
+.topProduct h2 {
+    font-size: 1.5rem;
+    align-self: center;
+}
+
+.topProduct button {
+    width: 120px;
+    height: 40px;
+    font-size: 0.9rem;
+}
+.bottomProduct {
+    flex-direction: row;
+}
+
+.bottomProduct h3 {
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+}
+
+.leftProduct {
+    width: 50%;
+}
+.leftProduct h3 {
+    font-size: 1.3rem;
+    display: flex;
+}
+
+.rightProduct {
+    width: 50%;
+    margin-left: 30px;
+}
+
+.boxProduct {
+    width: 200px;
+    height: 250px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+}
+
+.anyProduct {
+    align-self: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* third section */
+.topSellers {
+    margin-top: 50px;
+}
+.topSellers h3 {
+    margin-bottom: 50px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.wrapTop, .wrapDown {
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapTop {
+    margin-bottom: 40px;
+}
+
+.GPUS,.CPUS,.MOTHERBOARD, .RAMS {
+    width: 50%;
+}
+
+.GPUS h4,.CPUS h4,.MOTHERBOARD h4, .RAMS h4{
+    font-size: 1rem;
+}
+.box {
+    width: 200px;
+    height: 250px;
+    display: flex;
+}
+/*fifth section*/
+.paymentMethods span {
+    font-size: 2rem;
+}
+}

@@ -7,13 +7,14 @@
     <link rel="preload" as="image" href="./assets/img/logo_h.svg" width="100%">
     <script src="https://kit.fontawesome.com/c0056d4561.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" media="screen and (max-width: 481px)" href="./assets/styles/mobile.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 482px) and (max-width: 768px)" href="./assets/styles/tablet.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 1024px)" href="./assets/styles/laptop.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 1200px)" href="./assets/styles/desktop.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 1201px)" href="./assets/styles/tablet.css">
 
     <title>Document</title>
 </head>
 <body>
-    <header>
-      <?php include "./includes/header.html" ?>
-    </header> 
 
     <main class="mainLanding">
         <section class="intro">
@@ -46,6 +47,7 @@
 <section class="topSellers">
     <h3>Top Sellers</h3>
     <div class ="wrapTopSellers">
+        <div class ="wrapTop">
     <div class="GPUS">
         <div class="box"></div>
         <h4>GPUS</h4>
@@ -54,6 +56,8 @@
         <div class="box"></div>
         <h4>CPUS</h4>
     </div>
+</div>
+<div class="wrapDown">
     <div class="RAMS">
         <div class="box"></div>
         <h4>Rams</h4>
@@ -62,6 +66,7 @@
         <div class="box"></div>
         <h4>Motherboard</h4>
     </div>
+</div>
     </div>
 </section>
 
