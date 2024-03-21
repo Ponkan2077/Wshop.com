@@ -82,6 +82,10 @@
     <div class="mobileScreen"> 
     <div class="boxReview"></div>
     </div>
+    </div>
+    <div class="tabletScreen"> 
+    <div class="boxReview"></div>
+    </div>
 </section>
 
 
