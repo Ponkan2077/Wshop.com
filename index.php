@@ -8,8 +8,8 @@
     <script src="https://kit.fontawesome.com/c0056d4561.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" media="screen and (max-width: 481px)" href="./assets/styles/mobile.css">
     <link rel="stylesheet" type="text/css" media="screen and (min-width: 482px) and (max-width: 768px)" href="./assets/styles/tablet.css">
-    <link rel="stylesheet" type="text/css" media="screen and (max-width: 1024px)" href="./assets/styles/laptop.css">
-    <link rel="stylesheet" type="text/css" media="screen and (max-width: 1200px)" href="./assets/styles/desktop.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 769px) and (max-width: 1024px)" href="./assets/styles/laptop.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 1025px) and (max-width: 1200px)" href="./assets/styles/desktop.css">
     <link rel="stylesheet" type="text/css" media="screen and (min-width: 1201px)" href="./assets/styles/tablet.css">
 
     <title>Document</title>
@@ -32,13 +32,13 @@
     <div class ="leftProduct">
         <h3>Pre-Built Systems</h3>
         <div class="boxProduct">
-            <div class="anyProduct"></div>
+            <img src="./assets/img/logo_h.svg" class="anyProduct" alt="picture">
         </div>
     </div>
     <div class ="rightProduct">
         <h3>Laptops</h3>
         <div class="boxProduct">
-        <div class="anyProduct"></div>
+        <img src="./assets/img/logo_h.svg" class="anyProduct" alt="picture"></div>
         </div>
     </div>
 </div>
@@ -49,21 +49,21 @@
     <div class ="wrapTopSellers">
         <div class ="wrapTop">
     <div class="GPUS">
-        <div class="box"></div>
+        <img src="./assets/img/logo_h.svg" class = "box" alt="picture">
         <h4>GPUS</h4>
     </div>
     <div class="CPUS">
-        <div class="box"></div>
+    <img src="./assets/img/logo_h.svg"  class="box" alt="picture">
         <h4>CPUS</h4>
     </div>
 </div>
 <div class="wrapDown">
     <div class="RAMS">
-        <div class="box"></div>
+    <img src="./assets/img/logo_h.svg"  class="box" alt="picture">
         <h4>Rams</h4>
     </div>
     <div class="MOTHERBOARD">
-        <div class="box"></div>
+    <img src="./assets/img/logo_h.svg"  class="box" alt="picture">
         <h4>Motherboard</h4>
     </div>
 </div>
@@ -74,17 +74,20 @@
     <h3>Reviews</h3>
     <div class="desktopScreen">
     <div class="wrapBoxReview">
-    <div class="boxReview"></div>
-    <div class="boxReview"></div>
-    <div class="boxReview"></div>
+    <img src="./assets/img/logo_h.svg"   class="boxReview" alt="picture">
+    <img src="./assets/img/logo_h.svg" class="boxReview" alt="picture">
+    <img src="./assets/img/logo_h.svg"  class="boxReview" alt="picture">
 </div>
 </div>
     <div class="mobileScreen"> 
-    <div class="boxReview"></div>
+    <img src="./assets/img/logo_h.svg"  class="boxReview" alt="picture">
     </div>
     </div>
     <div class="tabletScreen"> 
-    <div class="boxReview"></div>
+    <img src="./assets/img/logo_h.svg" class="boxReview" alt="picture">
+    </div>
+    <div class="laptopScreen"> 
+    <img src="./assets/img/logo_h.svg" class="boxReview" alt="picture">
     </div>
 </section>
 
@@ -94,7 +97,7 @@
    <span>Payment Methods</span>
    </div> 
     <div class="boxPayment">
-        <img src="./assets/img/payments.svg" width="100%">
+        <img src="./assets/img/payments.svg">
     </div>
 </section>
 </main>

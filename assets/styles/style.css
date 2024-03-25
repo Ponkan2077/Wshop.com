@@ -15,7 +15,24 @@ body{
     color: white;
 }
 
-main {
+img, video {
+    width: 100%;
+    object-fit: contain;
+    height: 100%;
+}
+
+
+.anyProduct {
+    background-color: darkgrey;
+}
+.box {
+    background-color: darkgrey;
+}
+
+.boxReview {
+    background-color: darkgrey;
+}
+.mainLanding {
     margin: 0px 130px 0px 130px; /* So that they are align*/
 }
 
@@ -291,7 +308,7 @@ i {
 
 .anyProduct {
     width: 395px;
-    background-color: white;
+    /*background-color: white;*/
     height: inherit;
 }
 
@@ -323,12 +340,13 @@ i {
     justify-content: center;
 }
 
-.box {
+/*.box {
     width: 300px;
     height: 572px;
-    background-color: white;
+   /* background-color: white;
     margin-bottom: 50px;
 }
+*/
 
 /*4th Section*/
 
@@ -352,7 +370,7 @@ i {
 .boxReview {
     width: 400px;
     height: 572px;
-    background-color: white;
+    /*background-color: white;*/
 }
 
 /*5th Section*/

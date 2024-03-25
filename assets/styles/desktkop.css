@@ -1,0 +1,13 @@
+@media screen {
+    .mobileScreen {
+        display: none;
+    }
+    .tabletScreen {
+        display: none;
+    }
+    .laptopScreen {
+        display: none;
+    }
+    /*landing page*/
+    
+}

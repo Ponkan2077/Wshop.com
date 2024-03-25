@@ -1,4 +1,22 @@
 @media screen {
+    /* media query related*/
+    .desktopScreen {
+        display: none;
+     }
+     .tabletScreen {
+        display: none;
+     }
+     .laptopScreen {
+        display: none;
+     }
+
+     .tvScreen {
+        display: none;
+     }
+     .mobileScreen {
+        display: flex;
+        flex-direction: row;
+     }
     /*header*/
     header {
         width: 100%;
@@ -9,15 +27,6 @@
      .logo img{
         width: 120px;
         height: 27px;
-     }
-
-     .desktopScreen {
-        display: none;
-     }
-
-     .mobileScreen {
-        display: flex;
-        flex-direction: row;
      }
 
      .loginIcon, .headerSearch {
@@ -102,10 +111,12 @@
     }
 
     .boxProduct {
-        width: 100%;
+        max-width: 100%;
+
         align-self: center;
         display: flex;
         justify-content: center;
+        height: 300px;
     }
 
     .anyProduct {
@@ -120,9 +131,11 @@
         width: 100%;
         align-items: self-start;
     }
-
+    
     .GPUS, .CPUS, .RAMS, .MOTHERBOARD {
-        width: inherit;
+        width: 100%;
+        height: 200px;
+        margin-bottom: 50px;
     }
 
     .box {
@@ -142,6 +155,7 @@
     }
     .boxReview {
         width: 100%;
+        height: 200px;
     }
 
     .reviews {
