@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" media="screen and (min-width: 482px) and (max-width: 768px)" href="./assets/styles/tablet.css">
     <link rel="stylesheet" type="text/css" media="screen and (min-width: 769px) and (max-width: 1024px)" href="./assets/styles/laptop.css">
     <link rel="stylesheet" type="text/css" media="screen and (min-width: 1025px) and (max-width: 1200px)" href="./assets/styles/desktop.css">
-    <link rel="stylesheet" type="text/css" media="screen and (min-width: 1201px)" href="./assets/styles/tablet.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 1201px)" href="./assets/styles/tv.css">
 
     <title>Document</title>
 </head>
