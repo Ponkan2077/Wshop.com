@@ -40,7 +40,8 @@
         }
         /*third section*/
         .wrapTop, .wrapDown {
-            width: 50%;
+            display: flex;
+            flex-direction: row;
         }
         .GPUS,.CPUS,.MOTHERBOARD, .RAMS {
             width: 100%;
@@ -50,7 +51,6 @@
             width: 80%;
             height: 350px;
             display: flex;
-            margin-left: 20px;
         }
 
         
