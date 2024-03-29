@@ -1,5 +1,5 @@
 @media screen {
-    /*header*/
+    /*media query related*/
     .desktopScreen {
         display: none;
     }
@@ -10,6 +10,26 @@
     .laptopScreen {
         display: none;
     }
+
+    /*header*/
+    header {
+        width: 100%;
+    }
+    .top {
+        margin: 20px;
+    }
+     .logo img{
+        width: 120px;
+        height: 27px;
+     }
+
+     .loginIcon, .headerSearch {
+        margin-right: 10px;
+     }
+
+     i {
+        color: #6a6a6a;
+     }
     /*footer*/
 
     .wrapFooter {

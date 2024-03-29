@@ -1,9 +1,15 @@
 @media screen {
-    /* head */ 
+    /* media query related */ 
 .mobileScreen {
     display: none;
 }
 
+.top .mobileScreen {
+    display: none;
+}
+.top .tabletScreen {
+     display: none;
+}
 .tabletScreen {
     display: none;
 }
@@ -11,6 +17,35 @@
 .desktopScreen {
     display: none;
 }
+
+/*header*/ 
+header {
+    width: 100%;
+}
+.top {
+    margin: 20px;
+}
+ .logo img{
+    width:  200px;
+    height: 40px;
+ }
+
+ .searchField {
+    width: 350px;
+ }
+
+ .laptopScreen .btns {
+    display: flex;
+    flex-direction: row;
+ }
+
+ .loginBtn {
+    margin-left: 20px;
+ }
+
+ .loginBtn, .signUpBtn {
+    font-size: 0.875rem;
+ }
 /* landing page */ 
 .mainLanding {
     margin: 0 50px 0 50px;

@@ -15,7 +15,7 @@
     <title>Document</title>
 </head>
 <body>
-
+<?php include "./includes/header.html"?>
     <main class="mainLanding">
         <section class="intro">
     <h1>Your Most Trusted Computer Online Shop</h1>
