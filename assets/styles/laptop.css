@@ -26,14 +26,18 @@ header {
     margin: 20px;
 }
  .logo img{
-    width:  200px;
+    width:  150px;
     height: 40px;
  }
 
  .searchField {
-    width: 350px;
+    width: 400px;
+    max-width: 300px;
  }
 
+ .laptopMenu {
+    margin-left: 30px;
+ }
  .laptopScreen .btns {
     display: flex;
     flex-direction: row;
@@ -46,9 +50,33 @@ header {
  .loginBtn, .signUpBtn {
     font-size: 0.875rem;
  }
+
+ .search {
+    display: flex;
+    align-items: center;
+ }
 /* landing page */ 
 .mainLanding {
     margin: 0 50px 0 50px;
+}
+
+/*first section*/
+.intro {
+    margin-top: 115px;
+}
+.intro h1 {
+    font-size: 3rem;
+    width: 14ch;
+}
+.intro p {
+margin-top: 30px;
+font-size: 1.1rem;
+}
+.intro button {
+    width: 150px;
+    height: 50px;
+    font-size: 1.1rem;
+    margin-top: 50px;
 }
 
 /*second section*/

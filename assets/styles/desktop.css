@@ -37,7 +37,14 @@ header {
  .loginBtn, .signUpBtn {
     font-size: 0.875rem;
  }
+
+ .desktopScreen {
+    display: flex;
+ }
     /*landing page*/
+    .mainLanding {
+        margin: 0 70px 0 70px;
+    }
     /*second section*/
     leftProduct {
         width: 50%;
@@ -58,7 +65,7 @@ header {
     
     .boxProduct {
         width: 100%;
-        height: 675px;
+        height: 500px;
         float: left;
     }
     

@@ -8,7 +8,42 @@
         .laptopScreen {
             display: none;
         }
+        /*header*/
+        header {
+            width: 100%;
+        }
+        .top {
+            margin: 20px;
+        }
+         .logo img{
+            width:  200px;
+            height: 40px;
+         }
+        
+         .searchField {
+            width: 350px;
+         }
+        
+         .laptopScreen .btns {
+            display: flex;
+            flex-direction: row;
+         }
+        
+         .loginBtn {
+            margin-left: 20px;
+         }
+        
+         .loginBtn, .signUpBtn {
+            font-size: 0.875rem;
+         }
+        
+         .desktopScreen {
+            display: flex;
+         }
         /*landing page*/
+        .mainLanding {
+            margin: 0 70px 0 70px;
+        }
         /*second section*/
         leftProduct {
             width: 50%;
