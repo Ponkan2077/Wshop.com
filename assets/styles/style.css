@@ -389,3 +389,61 @@ i {
     border-bottom: 3px solid white;
     margin-bottom: 20px;
 }
+
+/*login*/
+.loginMain {
+    display: flex;
+    justify-content: center;
+}
+.loginWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 542px;
+    height: 736px;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 75px;
+    width: 100%;
+}
+
+.loginForm .loginBtn {
+    margin-right: 0px;
+    width: 70%;
+    background-color: #004AAD;
+}
+
+.logoLogin {
+    width: 200px;
+    height: 50px;
+    margin-top: 25px;
+}
+
+ .passwordField input[type="password"]::selection,.userField input[type="text"]::selection {
+   background: transparent;
+}
+
+.passwordField input[type="password"]:focus,.userField input[type="text"]:focus {
+    outline-style: none;
+    box-shadow: none;
+}
+
+.passwordField, .userField {
+    width: 70%;
+    height: 36px;
+    border-radius: 0 20px 20px 0;
+    border: 1px solid #6a6a6a;
+    color: white;
+    background-color: transparent;
+    font-size: 1rem;
+    padding-left: 1rem;
+    color: #6A6A6A;
+    margin-bottom: 30px;
+}
+
