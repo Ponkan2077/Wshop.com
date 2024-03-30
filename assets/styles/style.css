@@ -374,7 +374,6 @@ i {
 }
 
 /*5th Section*/
-
 .payment {
     display: flex;
     justify-content: center;
@@ -390,6 +389,28 @@ i {
     margin-bottom: 20px;
 }
 
+/*login and SignUp*/
+.loginSignUpIcon {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.facebookLogin , .googleLogin, .twitterLogin {
+    margin: 0 20px 0 20px;
+    width: 41px;
+    height: 37px;
+}
+
+.facebookLogin i, .googleLogin i, .twitterLogin i{
+    width: 100%;
+    object-fit: contain;
+}
+.signInWith{
+    margin-bottom: 30px;
+}
+
 /*login*/
 .loginMain {
     display: flex;
@@ -399,8 +420,8 @@ i {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 542px;
-    height: 736px;
+    width: 450px;
+    height: 550px;
     border-radius: 30px;
     border: 1px solid white;
 }
@@ -417,6 +438,13 @@ i {
     margin-right: 0px;
     width: 70%;
     background-color: #004AAD;
+    margin-bottom: 30px;
+    border: transparent;
+    border: 1px solid transparent;
+}
+
+.loginForm .loginBtn:hover {
+    border: 1px solid #ffffff;
 }
 
 .logoLogin {
@@ -445,5 +473,14 @@ i {
     padding-left: 1rem;
     color: #6A6A6A;
     margin-bottom: 30px;
+}
+
+.signUpBtnLogin {
+    color: white;
+    background-color: #004AAD;
+    border-radius: 15px;
+    margin-left: 10px;
+    font-size: 0.65rem;
+    padding: 5px 15px 5px 15px;
 }
 
