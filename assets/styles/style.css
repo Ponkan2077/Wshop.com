@@ -434,6 +434,21 @@ i {
     width: 100%;
 }
 
+.password, .user {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+}
+
+.password i, .user i {
+    width: 51px;
+    height: 36px;
+    border-radius:20px 0 0 20px;
+    background-color: #6A6A6A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .loginForm .loginBtn {
     margin-right: 0px;
     width: 70%;
@@ -447,10 +462,12 @@ i {
     border: 1px solid #ffffff;
 }
 
+.user, .password {
+    margin-bottom: 30px;
+}
 .logoLogin {
     width: 200px;
     height: 50px;
-    margin-top: 25px;
 }
 
  .passwordField input[type="password"]::selection,.userField input[type="text"]::selection {
@@ -463,7 +480,7 @@ i {
 }
 
 .passwordField, .userField {
-    width: 70%;
+    width: 100%;
     height: 36px;
     border-radius: 0 20px 20px 0;
     border: 1px solid #6a6a6a;
@@ -472,7 +489,6 @@ i {
     font-size: 1rem;
     padding-left: 1rem;
     color: #6A6A6A;
-    margin-bottom: 30px;
 }
 
 .signUpBtnLogin {
