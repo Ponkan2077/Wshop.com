@@ -465,7 +465,7 @@ i {
 .user, .password {
     margin-bottom: 30px;
 }
-.logoLogin {
+.logoSignUpLogin {
     width: 200px;
     height: 50px;
 }
@@ -479,7 +479,7 @@ i {
     box-shadow: none;
 }
 
-.passwordField, .userField {
+.passwordField, .userField, .emailField {
     width: 100%;
     height: 36px;
     border-radius: 0 20px 20px 0;
@@ -500,3 +500,69 @@ i {
     padding: 5px 15px 5px 15px;
 }
 
+/* Sign Up */
+.signUpMain {
+    display: flex;
+    justify-content: center;
+}
+
+.signUpInfo {
+    margin-top: 50px;
+}
+.signUpWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+    height: 550px;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+
+.signUpInfo {
+    width: inherit;
+}
+
+.signUp {
+    display: flex;
+}
+
+.leftSignUp, .rightSignUp {
+    width: 50%;
+}
+
+.rightSignUp {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+.termsAndConditions {
+    font-size: 0.75rem;
+    display: flex;
+}
+
+.emailSignUp {
+    width: 100%;
+}
+
+.userSignUp , .passwordSignUp , .passwordSignUpConfirm , .birthday , .emailSignUp, .bDayGender  {
+    display: flex;
+}
+
+.userSignUp i, .passwordSignUp i, .passwordSignUpConfirm i, .birthday i, .emailSignUp i {
+    width: 51px;
+    height: 36px;
+    border-radius:20px 0 0 20px;
+    background-color: #6A6A6A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.passwordSignUp , .userSignUp, .passwordSignUpConfirm, .emailSignUp, .bDayGender {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
