@@ -51,6 +51,11 @@ header {
     margin: 32px 30px 10px 70px;
     justify-content: space-between;
 }
+
+.btns {
+    display: flex;
+    align-items: center;
+}
 .logo:hover {
 cursor: pointer;
 }

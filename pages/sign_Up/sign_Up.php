@@ -6,10 +6,16 @@
     <link rel="stylesheet" type="text/css" href="../../assets/styles/style.css">
     <link rel="preload" as="image" href="../../assets/img/logo_h.svg" width="100%">
     <script src="https://kit.fontawesome.com/c0056d4561.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 481px)" href="../../assets/styles/mobile.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 482px) and (max-width: 768px)" href="../../assets/styles/tablet.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 769px) and (max-width: 1024px)" href="../../assets/styles/laptop.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 1025px) and (max-width: 1200px)" href="../../assets/styles/desktop.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 1201px)" href="../../assets/styles/tv.css">
     <title>Document</title>
 </head>
 <body>
 
+<header><?php include "../../includes/header.html"?></header>
     <main class="signUpMain">
         <div class="signUpWrapper">
         <div class ="logoSignUpLogin">

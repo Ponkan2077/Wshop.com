@@ -105,5 +105,11 @@
 <footer>
     <?php include "./includes/footer.html" ?>
 </footer> 
+<script>
+    window.onload = logoDeleteFunction() {
+         const element =document.getElementByid("loginSignUpPage");
+         element.remove();
+    }
+</script>
 </body>
 </html>
