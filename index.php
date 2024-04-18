@@ -15,7 +15,13 @@
     <title>Document</title>
 </head>
 <body>
-<?php include "./includes/header.html"?>
+    <header>
+    <?php 
+   $path = $_SERVER['DOCUMENT_ROOT'];
+   $path .= "/Wshop.com/includes/header.php";
+   include_once($path);
+?>
+         </header>
     <main class="mainLanding">
         <section class="intro">
     <h1>Your Most Trusted Computer Online Shop</h1>

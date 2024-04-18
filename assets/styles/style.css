@@ -672,3 +672,8 @@ i {
     background-color: #004AAD;
     width: 100%;
 }
+
+.headerLanding {
+    display: flex;
+    flex-direction: column;
+}

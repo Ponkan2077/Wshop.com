@@ -14,7 +14,13 @@
     <title>Document</title>
 </head>
 <body>
-    <header><?php include "../../includes/header.html"?></header>
+    <header>
+    <?php 
+   $path = $_SERVER['DOCUMENT_ROOT'];
+   $path .= "/Wshop.com/includes/header.php";
+   include_once($path);
+?>
+</header>
     <main class="loginMain">
         <div class="loginWrapper">
             <div class ="logoSignUpLogin">

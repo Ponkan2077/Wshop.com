@@ -1,8 +1,13 @@
 
         <div class = "top">
         <div class = "logo">
-            <img src="./assets/img/logo_h.svg" width="240px" height="79px" id="landingPage">
-            <img src="../../assets/img/logo_h.svg" width="240px" height="79px" id="loginSignUpPage">
+            <a href="/Wshop.com/index.php">
+        <?php 
+   $path = $_SERVER['DOCUMENT_ROOT'];
+   $path .= "/Wshop.com/assets/img/logo_h.svg";
+   include_once($path);
+?></a>
+            <!--<img src="/assets/img/logo_h.svg" width="240px" height="79px" id="landingPage">-->
         </div>
         <div class="desktopScreen">
             <div class = "search">
