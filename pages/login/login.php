@@ -51,7 +51,7 @@
             </div>
             <div class="signUpNowLogin">
                 <span>Don't have an account?</span>
-                <button class="signUpBtnLogin">SignUp NOW!</button>
+                <a class="signUpBtnLogin" href="/Wshop.com/pages/sign_Up/sign_Up.php">SignUp NOW!</a>
             </div>
         </div>
     </main>

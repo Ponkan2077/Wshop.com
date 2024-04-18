@@ -95,8 +95,8 @@
             </form>
         </div>
         <div class="signUpNowLogin">
-            <span>Don't have an account?</span>
-            <button class="signUpBtnLogin">SignUp NOW!</button>
+            <span>Have an account?</span>
+            <a class="signUpBtnLogin" href="/Wshop.com/pages/login/login.php">Login NOW!</a>
         </div>
     </div>
 
