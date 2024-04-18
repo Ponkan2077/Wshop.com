@@ -21,8 +21,8 @@
                         </form>
             </div>
             <div class = "btns">
-                 <a  class="loginBtn" href="./pages/login/login.php">Login</a>
-                 <a  class="signUpBtn" href="./pages/sign_Up/sign_Up.php">Sign Up</a>
+                 <a  class="loginBtn" href="/Wshop.com/pages/login/login.php">Login</a>
+                 <a  class="signUpBtn" href="/Wshop.com/pages/sign_Up/sign_Up.php">Sign Up</a>
                 </div>
         </div>
         <div class="laptopScreen">
@@ -53,9 +53,9 @@
         
             <nav class = "Primary_nav"> 
                 <ul>
-                    <li><a href ="#">Home</a></li>
-                    <li><a href ="#">Products</a></li>
-                    <li><a href ="#">About Us</a></li>
+                    <li><a href ="#">Shop</a></li>
+                    <li><a href ="/Wshop.com/index.php">Home</a></li> 
+                    <li><a href ="/Wshop.com/pages/about_Us.php">About Us</a></li>
                     <li><a href ="#">Contact Us</a></li>
                 </ul>
             </nav>

@@ -62,7 +62,11 @@
                         </nav>
                     </div>
                     <div class="logoFooter" width="200px" height="50px">
-                        <img src="./assets/img/logo_h.svg" alt="logo"> 
+                        <?php 
+                        $path = $_SERVER['DOCUMENT_ROOT'];
+                        $path .= "/Wshop.com/assets/img/logo_h.svg";
+                        include_once($path);
+                     ?>
                     </div>
             </div>
             
