@@ -487,7 +487,7 @@ i {
     box-shadow: none;
 }
 
-.passwordField, .userField, .emailField, .birthdayField, .genderOption {
+.passwordField, .userField, .emailField, .birthdayField, .genderOption, .contactSubjectField, .contactMessageField {
     width: 100%;
     height: 36px;
     border-radius: 0 15px 15px 0;
@@ -567,11 +567,12 @@ i {
     width: 100%;
 }
 
-.userSignUp , .passwordSignUp , .passwordSignUpConfirm , .birthday , .emailSignUp, .bDayGender  {
+.userSignUp , .passwordSignUp , .passwordSignUpConfirm , .birthday , .emailSignUp, .bDayGender, .contactEmail1, .contactSubject1, .contactMessage1  {
     display: flex;
 }
 
-.userSignUp i, .passwordSignUp i, .passwordSignUpConfirm i, .birthday i, .emailSignUp i, .birthday i {
+.userSignUp i, .passwordSignUp i, .passwordSignUpConfirm i, .birthday i, .emailSignUp i, .birthday i, .contactFirstName i, .contactLastName i,
+.contactEmail1 i, .contactSubject1 i, .contactMessage1 i  {
     width: 51px;
     height: 36px;
     border-radius:20px 0 0 20px;
@@ -722,4 +723,98 @@ i {
 .focusOn p{
     width: 26ch;
     font-size: 1rem;
+}
+
+/* Contact Page*/
+
+.mainContact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactUsWrapper {
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+    height: 700px;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+
+.contatUsForm {
+    width: 80%;
+}
+.contactFirstName, .contactLastName {
+    display: flex;
+    width: 100%;
+}
+
+.contactName, .contactEmail, .contactSubject, .contactMessage {
+    width: 90%;
+}
+
+.contactEmail .emailContact {
+    margin: none;
+}
+
+.contactUsForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contactFirstName, .contactLastName {
+    margin: 30px 0 30px 0;
+}
+
+.contactEmail1, .contactSubject1, .contactMessage1 {
+    margin: 15px 0 15px 0;
+}
+
+.contactLasteName {
+    margin-bottom: 15px;
+}
+
+.contactMessageField {
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.contactMessage1 {
+    position: relative;
+}
+
+.contactMessage1 i {
+    border-radius: 20px 0 0 0;
+    border: 1px solid #6a6a6a;
+}
+
+.contactMessage1 {
+    height: 150px;
+}
+
+.contactBtn1 {
+    font-size: 20px;
+   border: 1px solid white;
+   border-radius: 20px;
+   color: white;
+   background-color: black;
+   padding: 6px 32px 6px 32px;
+   width: 100%;
+   background-color: #004AAD;
+   cursor: pointer;
+}
+
+.contactBtn1:hover {
+    background-color: black;
+    border: 1px solid white;
+}
+.contactBtn {
+    width: 30%;
+    margin-top: 50px;
 }

@@ -13,7 +13,14 @@
     <link rel="stylesheet" type="text/css" media="screen and (min-width: 1201px)" href="../assets/styles/tv.css">
 </head>
 <body>
-    <main>
+<header> 
+<?php 
+   $path = $_SERVER['DOCUMENT_ROOT'];
+   $path .= "/Wshop.com/includes/header.php";
+   include_once($path);
+?>
+</header>
+    <main class="mainContact">
         <div class="contactUsWrapper">
             <div class ="logoSignUpLogin">
                 <img src="../../assets/img/logo_h.svg">
@@ -38,7 +45,7 @@
             </div>
             </div>
                 <div class="contactEmail">
-                    <div class="emailSignUp">
+                    <div class="contactEmail1">
                         <i class="fa-solid fa-envelope" style="color: #ffffff;"></i>
                    <input type = "email"
                    placeholder = "Email Address"
@@ -47,8 +54,8 @@
                </div>
                 </div>
             <div class="contactSubject">
-                div class="emailSignUp">
-                        <i class="fa-solid fa-envelope" style="color: #ffffff;"></i>
+                <div class="contactSubject1">
+                        <i class="fa-solid fa-circle-exclamation" style="color: #ffffff;"></i>
                    <input type = "text"
                    placeholder = "Subject"
                    name = "contactMessage"
@@ -56,17 +63,18 @@
                </div>
             </div>
             <div class="contactMessage">
-                div class="emailSignUp">
-                        <i class="fa-solid fa-envelope" style="color: #ffffff;"></i>
+                <div class="contactMessage1">
+                        <i class="fa-regular fa-pen-to-square" style="color: #ffffff;"></i>
                    <input type = "textarea"
-                   placeholder = "contactMessage"
+                   placeholder = "Message.."
                    name = "emailAddress"
                    class = "contactMessageField">
                </div>
             </div>
-            <div class="contactBtn"></div>
-
-              </form>
+            <div class="contactBtn">
+                <button type="submit" class="contactBtn1">Submit</button>
+            </div>
+        </form>
             </div>
         </div>
     </main>
