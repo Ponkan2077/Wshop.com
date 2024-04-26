@@ -820,13 +820,13 @@ i {
 }
 
 /* admin page*/
-.dashboardBody {
-    background-color: white;
-}
 
 .mainDashboard {
-    width: inherit;
-    height: inherit;
+    margin-left: 15%;
+    color: black;
+}
+.dashboardBody {
+    background-color: white;
 }
 
 .dashboardAside {
@@ -876,4 +876,27 @@ i {
     font-size: 1.2rem;
 }
 
+.adminDashboard0 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #d9d9d9;
+    height: 150px;
+    align-items: center;
+}
 
+.adminDashboard1, .adminDashboard2, .adminDashboard3 {
+    display: flex;
+    align-items: center;
+    padding: 20px 50px 20px 50px;
+   border-radius: 20px;
+   background-color: white;
+   height: 65%;
+}
+
+.adminBlue {
+    color: #004AAD;
+}
+
+.adminDashboard2 div, .adminDashboard3 div{
+    margin-right: 10px;
+}

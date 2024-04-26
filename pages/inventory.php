@@ -15,8 +15,7 @@
     <title>Document</title>
 </head>
 <body class="dashboardBody">
-    <main class="mainDashboard">
-        <aside class="dashboardAside" style="float: left" >
+<aside class="dashboardAside" style="float: left" >
             <div class = "logoAdmin">
                 <a href="/Wshop.com/pages/dashboard.php">
                 <img src="/Wshop.com/assets/img/logo_h.svg">
@@ -33,6 +32,22 @@
        <a href ="/Wshop.com/pages/login/login.php">Logout</a>
     </div>
         </aside>
+    <main class="mainDashboard">
+    <secion class="adminDashboard0">
+       <div class="adminDashboard1">
+        <div  class="adminBlue">DASHBOARD</div>
+       </div>
+       <div class="adminDashboard2">
+       <div>Number of Products:</div>
+       <div class="adminBlue">400</div>
+       <div>Available:</div>
+       <div class="adminBlue">200</div>
+       </div>
+       <div class="adminDashboard3">
+        <div>Products that are being restocked: </div>
+        <div class="adminBlue">100/200</div>
+       </div>
+     </seciton>
     </main>
 </body>
 </html>
