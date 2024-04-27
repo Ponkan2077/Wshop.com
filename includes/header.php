@@ -41,12 +41,12 @@
         <div class="mobileScreen">
                  <div class="headerSearch"><i class="fa-solid fa-magnifying-glass"></i></div>
                 <div class="loginIcon"><i class="fa-regular fa-user"></i></div>
-                <div class="mobileMenu"><i class="fa-solid fa-bars"></i></div>
+                <div class="mobileMenu" ><i class="fa-solid fa-bars"></i></div>
         </div>
         <div class="tabletScreen">
             <div class="headerSearch"><i class="fa-solid fa-magnifying-glass"></i></div>
            <div class="loginIcon"><i class="fa-regular fa-user"></i></div>
-           <div class="mobileMenu"><i class="fa-solid fa-bars"></i></div>
+           <div class="mobileMenu" id="menuButton"><i class="fa-solid fa-bars"></i></div>
    </div>
         </div>
         <hr style="border: 1px solid #6a6a6a; margin-bottom: 10px;">
@@ -59,6 +59,27 @@
                     <li><a href ="#">Contact Us</a></li>
                 </ul>
             </nav>
+<div id="myModal" class="modal">
+<div class="modal-content">
+  <div class = "btns">
+                 <a  class="loginBtn" href="/Wshop.com/pages/login/login.php">Login</a>
+                 <a  class="signUpBtn" href="/Wshop.com/pages/sign_Up/sign_Up.php">Sign Up</a>
+                </div>
+</div>
+
+</div>
+<script>
+    var modal =document.getElementById("myModal");
+    var btn = document.getElementById("menuButton");
+    btn.onclick =function() {
+        modal.style.display = "block";
+    }
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
         
 
     
