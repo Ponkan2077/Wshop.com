@@ -46,7 +46,7 @@
         <div class="tabletScreen">
             <div class="headerSearch"><i class="fa-solid fa-magnifying-glass"></i></div>
            <div class="loginIcon"><i class="fa-regular fa-user"></i></div>
-           <div class="mobileMenu" id="menuButton"><i class="fa-solid fa-bars"></i></div>
+           <button class="mobileMenu" id="menuButton"><i class="fa-solid fa-bars"></i></button>
    </div>
         </div>
         <hr style="border: 1px solid #6a6a6a; margin-bottom: 10px;">
