@@ -59,14 +59,14 @@
                     <li><a href ="#">Contact Us</a></li>
                 </ul>
             </nav>
-<div id="myModal" class="modal">
+
+            <div id="myModal" class="modal">
 <div class="modal-content">
   <div class = "btns">
                  <a  class="loginBtn" href="/Wshop.com/pages/login/login.php">Login</a>
                  <a  class="signUpBtn" href="/Wshop.com/pages/sign_Up/sign_Up.php">Sign Up</a>
                 </div>
 </div>
-
 </div>
 <script>
     var modal =document.getElementById("myModal");
