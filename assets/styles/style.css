@@ -969,3 +969,37 @@ i {
     width: 200px;
     align-self: center;
 }
+
+/* admin add Product*/
+
+.addProductWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.addProductWrapper1 {
+    width: 700px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.addProductWrapper1 h1, .addProductLabel {
+    margin: 20px 40px 20px 40px;
+}
+
+ .addProductWrapper1 h1 {
+    align-self: center;
+}
+.addProductLabel1, .addProductLabel2, .addProductLabel3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.addProductBtns {
+    display: flex;
+    justify-content: center;
+}
