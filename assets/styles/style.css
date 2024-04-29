@@ -915,3 +915,57 @@ i {
     border: none;
     background-color: black;
 }
+
+/* Buy Item */
+.buyMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buyWrapper1 {
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 700px;
+    height: 700px;
+    padding: 40px; 
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.buyWrapper2 {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 80%;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 50px;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.buyItem1, .buyItem2, .buyItem3, .buyItem4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buyItem1 p, .buyItem2 p, .buyItem3 p, .buyItem4 p {
+    width: 20%;
+}
+
+.buyItem1 .b1, .buyItem2 .b1, .buyItem3 .b1 ,.buyItem4 .b1  {
+    width: 80%;
+}
+
+.buyBtn {
+    background-color: #004AAD;
+    padding: 10px 30px 10px 30px;
+    color: white;
+    border-radius: 20px;
+    width: 200px;
+    align-self: center;
+}
