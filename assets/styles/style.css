@@ -1531,3 +1531,43 @@ object-fit: cover;
     background-color: #252525;
 }
 
+/* ship order page */
+.shipWrapper {
+    display: flex;
+    justify-content: center;
+}
+.shipWrapper1 {
+    width: 70%;
+    height: 650px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 75px;
+}
+.shipOrder h1{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.detailStock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.detail, .stock {
+    width: 45%;
+    height: 450px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px 40px 20px 40px;
+}
+
+.detail .buyItem1 p, .detail .buyItem2 p, .detail .buyItem3 p, .detail .buyItem4 p, 
+.stock .buyItem1 p, .stock .buyItem2 p, .stock .buyItem3 p, .stock .buyItem4 p {
+    font-size: 1.35rem;
+    margin-top: 30px;
+}
+
+.shipWrapper1 .addProductBtns, .buyBtn {
+    font-size: 1.25rem;
+}

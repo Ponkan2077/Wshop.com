@@ -56,7 +56,7 @@
                     <li><a href ="/Wshop.com/pages/shop/allProducts-shop.php">Shop</a></li>
                     <li><a href ="/Wshop.com/index.php">Home</a></li> 
                     <li><a href ="/Wshop.com/pages/about_Us.php">About Us</a></li>
-                    <li><a href ="#">Contact Us</a></li>
+                    <li><a href ="/Wshop.com/pages/contactUs.php">Contact Us</a></li>
                 </ul>
             </nav>
 

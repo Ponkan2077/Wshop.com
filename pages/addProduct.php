@@ -18,7 +18,7 @@
     <aside class="dashboardAside" style="float: left" >
         <div class = "logoAdmin">
             <a href="/Wshop.com/pages/dashboard.php">
-            <img src="/Wshop.com/assets/img/logo_h.svg">
+            <img src="../assets/img/logo_h.svg">
             </a>
         </div>
         <nav class="navAdmin">
