@@ -26,13 +26,13 @@
         <section class="intro">
     <h1>Your Most Trusted Computer Online Shop</h1>
     <p>With Over 100,000 sales</p>
-    <button>Shop now</button>
+    <a href="/Wshop.com/pages/shop/allProducts-shop.php" class="introBtn">Shop now</a>
 </section>
 
 <section class="product">
     <div class ="topProduct">
         <h2>Buy Our High Quality Products</h2>
-        <button class="shop">Shop</button>
+        <a class="shop" href="/Wshop.com/pages/shop/allProducts-shop.php">Shop</a>
     </div>
     <div class="bottomProduct">
     <div class ="leftProduct">
