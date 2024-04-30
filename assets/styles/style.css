@@ -22,9 +22,10 @@ img, video {
 }
 
 
-.anyProduct {
+/*.anyProduct {
     background-color: darkgrey;
 }
+
 .box {
     background-color: darkgrey;
 }
@@ -32,6 +33,7 @@ img, video {
 .boxReview {
     background-color: darkgrey;
 }
+*/
 .mainLanding {
     margin: 0px 100px 0px 100px; /* So that they are align*/
 }
