@@ -31,16 +31,16 @@
         <ul>
             <li><a href="/Wshop.com/pages/shop/allProducts-shop.php">All Products</a></li>
             <li><a href="/Wshop.com/pages/shop/desktop-shop.php">Desktop</a></li>
-            <li><a href="/Wshop.com/pages/shop/desktop-laptop.php">Laptops</a></li>
-            <li><a href="/Wshop.com/pages/shop/desktop-cpu.php">CPUs</a></li>
-            <li><a href="/Wshop.com/pages/shop/desktop-gpu.php">GPUs</a></li>
-            <li><a href="/Wshop.com/pages/shop/desktop-fan.php">Fans</a></li>
-            <li><a href="/Wshop.com/pages/shop/case">Case</a></li>
-            <li><a href="/Wshop.com/pages/shop/desktop-ram.php">RAM</a></li>
-            <li><a href="/Wshop.com/pages/shop/desktop-rom.php">ROM</a></li>
-            <li><a href="/Wshop.com/pages/shop/desktop-ups.php">UPS</a></li>
-            <li><a href="/Wshop.com/pages/shop/desktop-motherboard.php">Motherboard</a></li>
-            <li><a href="/Wshop.com/pages/shop/desktop-accessories.php">Accessories</a></li>
+            <li><a href="/Wshop.com/pages/shop/laptop-shop.php">Laptops</a></li>
+            <li><a href="/Wshop.com/pages/shop/cpu-shop.php">CPUs</a></li>
+            <li><a href="/Wshop.com/pages/shop/gpu-shop.php">GPUs</a></li>
+            <li><a href="/Wshop.com/pages/shop/fan-shop.php">Fans</a></li>
+            <li><a href="/Wshop.com/pages/shop/case-shop.php">Case</a></li>
+            <li><a href="/Wshop.com/pages/shop/ram-shop.php">RAM</a></li>
+            <li><a href="/Wshop.com/pages/shop/rom-shop.php">ROM</a></li>
+            <li><a href="/Wshop.com/pages/shop/ups-shop.php">UPS</a></li>
+            <li><a href="/Wshop.com/pages/shop/motherboard-shop.php">Motherboard</a></li>
+            <li><a href="/Wshop.com/pages/shop/accessories-shop.php">Accessories</a></li>
         </ul>
     </div>
 
