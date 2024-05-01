@@ -841,7 +841,7 @@ i {
     align-items: center;
     flex-direction: column;
     width: 15%;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     height: 100vh;
     position: relative;
 }
