@@ -35,13 +35,13 @@
                                 class = "searchField">
                        <button type = "submit" class = "searchBtn"><i class="fa-solid fa-magnifying-glass fs-nav"></i></button>
                         </form>
-                        <div class="laptopMenu"><i class="fa-solid fa-bars"></i></div>
+                        <button class="mobileMenu" id="menuButton"><i class="fa-solid fa-bars fa-2x"></i></button>
             </div>
         </div>
         <div class="mobileScreen">
                  <div class="headerSearch"><i class="fa-solid fa-magnifying-glass"></i></div>
                 <div class="loginIcon"><i class="fa-regular fa-user"></i></div>
-                <div class="mobileMenu" ><i class="fa-solid fa-bars"></i></div>
+                <button class="mobileMenu" id="menuButton"><i class="fa-solid fa-bars"></i></button>
         </div>
         <div class="tabletScreen">
             <div class="headerSearch"><i class="fa-solid fa-magnifying-glass"></i></div>
@@ -72,7 +72,7 @@
     var modal =document.getElementById("myModal");
     var btn = document.getElementById("menuButton");
     btn.onclick =function() {
-        modal.style.display = "block";
+        modal.style.display = "flex";
     }
     window.onclick = function(event) {
         if (event.target == modal) {

@@ -916,11 +916,35 @@ i {
     position: absolute;
     width: 100%;
     height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0, 0.4);
 }
 
+.modal-content {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content .btns {
+    display: flex;
+    flex-direction: column;
+
+}
 .mobileMenu {
     border: none;
     background-color: black;
+}
+
+.modal-content .btns .loginBtn {
+    margin-bottom: 20px;
+    margin-right: 0;
 }
 
 /* Buy Item */

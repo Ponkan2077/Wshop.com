@@ -161,4 +161,12 @@ font-size: 1.1rem;
     border-radius: 20px;
     border: 1px solid black;
 }
+/* modal */
+.mobileMenu {
+   margin-left: 20px;
+}
+
+ .loginBtn {
+    margin: 0;
+}
 }
