@@ -33,7 +33,7 @@
     </div>
         </aside>
     <main class="mainDashboard">
-    <secion class="adminDashboard0">
+    <section class="adminDashboard0">
        <div class="adminDashboard1">
         <div  class="adminBlue">DASHBOARD</div>
        </div>
@@ -47,7 +47,96 @@
         <div>Products that are being restocked: </div>
         <div class="adminBlue">100/200</div>
        </div>
-     </seciton>
+     </section>
+     <section class="productList">
+      <div class="tableContainer">
+        <h1>Product List</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Product ID</th>
+                    <th>Product Name</th>
+                    <th>Orders</th>
+                    <th>Stock</th>
+                    <th>Category</th>
+                    <th>Manufacturer</th>
+                    <th>Price</th>
+                    <th>Sale Price</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+            </tr>
+            <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+            </tr>
+            <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+            </tr><tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+            </tr><tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+            </tr><tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+            </tr><tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+            </tr>
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+      </div>
+
+     </section>
     </main>
 </body>
 </html>

@@ -3,3 +3,70 @@
     border-radius: 10px;
     padding: 10px 20px 10px 20px;
 }
+
+.mainDashboard {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.productList h1 {
+    margin: 50px 60px;
+    font-size: xx-large;
+
+}
+
+
+
+
+
+#adminSearch {
+    width: 100%;
+    height: 70px;
+    padding: 20px 30px;
+    background-color: #ffffff;
+}
+
+.productList .tableContainer {
+    width: 70%;
+    margin: 0 auto;
+    /* Center the container horizontally */
+}
+
+.productList table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+.productList th,
+td {
+    padding: 30px;
+    /* Increase padding to make cells larger */
+    text-align: left;
+}
+
+
+
+.productList th {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    background-color: white;
+    /* White background for header */
+}
+
+.productList thead th:first-child {
+    border-left: 1px solid black;
+    /* Left border for first header cell */
+}
+
+.productList thead th:last-child {
+    border-right: 1px solid black;
+    /* Right border for last header cell */
+}
+
+.productList tbody {
+    background-color: #f2f2f2;
+    /* Greyish background for body */
+}

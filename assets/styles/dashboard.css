@@ -3,3 +3,69 @@
     border-radius: 10px;
     padding: 10px 20px 10px 20px;
 }
+
+#adminSearch {
+    width: 100%;
+    height: 70px;
+    padding: 20px 30px;
+    background-color: #ffffff;
+}
+
+.mainDashboard{
+display: flex;
+flex-direction: column;
+}
+
+
+
+
+
+.transactionDetails h1{
+    margin: 50px 60px;
+    font-size: xx-large;
+
+}
+
+
+.transactionDetails .tableContainer{
+    width: 70%;
+    margin: 0 auto;
+    /* Center the container horizontally */
+}
+
+.transactionDetails table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+.transactionDetails th,
+td {
+    padding: 30px;
+    /* Increase padding to make cells larger */
+    text-align: left;
+}
+
+
+
+.transactionDetails th {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    background-color: white;
+    /* White background for header */
+}
+
+.transactionDetails thead th:first-child {
+    border-left: 1px solid black;
+    /* Left border for first header cell */
+}
+
+.transactionDetails thead th:last-child {
+    border-right: 1px solid black;
+    /* Right border for last header cell */
+}
+
+.transactionDetails tbody {
+    background-color: #f2f2f2;
+    /* Greyish background for body */
+}

@@ -29,7 +29,7 @@
         height: 27px;
      }
 
-     .loginIcon, .headerSearch {
+     .loginIcon, .headerSearch, .shoppingCart {
         margin-right: 10px;
      }
 
@@ -195,3 +195,6 @@
 }
 
 /* modal */
+.nav {
+    display: none;
+}

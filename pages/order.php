@@ -33,7 +33,7 @@
     </div>
         </aside>
     <main class="mainDashboard">
-    <secion class="adminDashboard0">
+    <section class="adminDashboard0">
        <div class="adminDashboard1">
         <div  class="adminBlue">ORDER</div>
        </div>
@@ -48,7 +48,116 @@
         <div> Pending Orders</div>
         <div class="adminBlue">40</div>
        </div>
-     </seciton>
+     </section>
+     
+     <section class="orderDetPend">
+        <div class="tableContainer">
+            <h1>Order Details</h1>
+            <table>
+            <thead>
+              <tr>
+                <th>Product</th>
+                <th>Product Name</th>
+                <th>Customer</th>
+                <th>Category</th>
+                <th>Manufacturer</th>
+                <th>Price</th>
+               </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                </tr>
+                <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                </tr>
+                <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                </tr>
+                <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                </tr>
+                <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                </tr>
+                <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                </tr>
+                
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+
+        </div>
+
+        <div class="pendingOrders">
+            <h1>Pending Orders</h1>
+            <table>
+                <thead>
+                    <tr>
+                    <th>Quantity</th>
+                    <th>Item</th>
+                    <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td>1x</td>
+                    <td>Desktop</td>
+                    <td>$700</td>
+                    </tr>
+                    <tr>
+                    <td>2x</td>
+                    <td>Nvidia GPU</td>
+                    <td>$1500</td>
+                    </tr>
+                    <tr>
+                    <td>1x</td>
+                    <td>AMD Ryzen CPU</td>
+                    <td>$300</td>
+                    </tr>
+                    <tr>
+                    <td>2x</td>
+                    <td>Laptop</td>
+                    <td>$800</td>
+                    </tr>
+                </tbody>
+           </table>
+
+        </div>
+
+
+     </section>
     </main>
 </body>
 </html>

@@ -20,6 +20,9 @@
                        <button type = "submit" class = "searchBtn"><i class="fa-solid fa-magnifying-glass fs-nav"></i></button>
                         </form>
             </div>
+            <div class="shoppingCart">
+            <a href="/Wshop.com/pages/buy.php"><i class="fa-solid fa-cart-shopping fa-lg"></i></a>
+           </div>
             <div class = "btns">
                  <a  class="loginBtn" href="/Wshop.com/pages/login/login.php">Login</a>
                  <a  class="signUpBtn" href="/Wshop.com/pages/sign_Up/sign_Up.php">Sign Up</a>
@@ -35,18 +38,27 @@
                                 class = "searchField">
                        <button type = "submit" class = "searchBtn"><i class="fa-solid fa-magnifying-glass fs-nav"></i></button>
                         </form>
+                        <div class="shoppingCart">
+            <a href="/Wshop.com/pages/buy.php"><i class="fa-solid fa-cart-shopping"></i></a>
+           </div>
                         <button class="mobileMenu" id="menuButton"><i class="fa-solid fa-bars fa-2x"></i></button>
             </div>
         </div>
         <div class="mobileScreen">
                  <div class="headerSearch"><i class="fa-solid fa-magnifying-glass"></i></div>
                 <div class="loginIcon"><i class="fa-regular fa-user"></i></div>
-                <button class="mobileMenu" id="menuButton"><i class="fa-solid fa-bars"></i></button>
+                <div class="shoppingCart">
+            <a href="/Wshop.com/pages/buy.php"><i class="fa-solid fa-cart-shopping"></i></a>
+           </div>
+                <button class="mobileMenu" id="menuButton1"><i class="fa-solid fa-bars"></i></button>
         </div>
         <div class="tabletScreen">
             <div class="headerSearch"><i class="fa-solid fa-magnifying-glass"></i></div>
            <div class="loginIcon"><i class="fa-regular fa-user"></i></div>
-           <button class="mobileMenu" id="menuButton"><i class="fa-solid fa-bars"></i></button>
+           <div class="shoppingCart">
+            <a href="/Wshop.com/pages/buy.php"><i class="fa-solid fa-cart-shopping"></i></a>
+           </div>
+           <button class="mobileMenu" id="menuButton2"><i class="fa-solid fa-bars"></i></button>
    </div>
         </div>
         <hr style="border: 1px solid #6a6a6a; margin-bottom: 10px;">
@@ -67,10 +79,33 @@
                  <a  class="signUpBtn" href="/Wshop.com/pages/sign_Up/sign_Up.php">Sign Up</a>
                 </div>
 </div>
+
 </div>
 <script>
     var modal =document.getElementById("myModal");
     var btn = document.getElementById("menuButton");
+    btn.onclick =function() {
+        modal.style.display = "flex";
+    }
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+
+    var modal =document.getElementById("myModal");
+    var btn = document.getElementById("menuButton1");
+    btn.onclick =function() {
+        modal.style.display = "flex";
+    }
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+
+    var modal =document.getElementById("myModal");
+    var btn = document.getElementById("menuButton2");
     btn.onclick =function() {
         modal.style.display = "flex";
     }

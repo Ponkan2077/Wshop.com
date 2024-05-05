@@ -23,7 +23,7 @@
         height: 27px;
      }
 
-     .loginIcon, .headerSearch {
+     .loginIcon, .headerSearch, .shoppingCart {
         margin-right: 10px;
      }
 
@@ -180,5 +180,9 @@ font-size: 1rem;
 /*fifth section*/
 .paymentMethods span {
     font-size: 2rem;
+}
+
+.nav {
+    display: none;
 }
 }
