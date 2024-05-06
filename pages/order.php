@@ -132,28 +132,27 @@
                 </thead>
                 <tbody>
                     <tr>
-                    <td>1x</td>
-                    <td>Desktop</td>
-                    <td>$700</td>
+                    <td><a href="/Wshop.com/pages/ship_order.php">1x</a></td>
+                    <td><a href="/Wshop.com/pages/ship_order.php">Desktop</a></td>
+                    <td><a href="/Wshop.com/pages/ship_order.php">$700</a></td>
                     </tr>
                     <tr>
-                    <td>2x</td>
-                    <td>Nvidia GPU</td>
-                    <td>$1500</td>
+                    <td><a href="/Wshop.com/pages/ship_order.php">2x</a></td>
+                    <td><a href="/Wshop.com/pages/ship_order.php">Nvidia GPU</a></td>
+                    <td><a href="/Wshop.com/pages/ship_order.php">$1500</a></td>
                     </tr>
                     <tr>
-                    <td>1x</td>
-                    <td>AMD Ryzen CPU</td>
-                    <td>$300</td>
+                    <td><a href="/Wshop.com/pages/ship_order.php">1x</a></td>
+                    <td><a href="/Wshop.com/pages/ship_order.php">AMD Ryzen CPU</a></td>
+                    <td><a href="/Wshop.com/pages/ship_order.php">$300</a></td>
                     </tr>
                     <tr>
-                    <td>2x</td>
-                    <td>Laptop</td>
-                    <td>$800</td>
+                    <td><a href="/Wshop.com/pages/ship_order.php">2x</a></td>
+                    <td><a href="/Wshop.com/pages/ship_order.php">Laptop</a></td>
+                    <td><a href="/Wshop.com/pages/ship_order.php">$800</a></td>
                     </tr>
                 </tbody>
            </table>
-
         </div>
 
 

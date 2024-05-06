@@ -78,3 +78,13 @@ td {
     width: 40%;
     margin: 0 auto;
 }
+
+.pendingOrders tr:hover {
+    background: #6A6A6A;
+}
+
+.pendingOrders td a {
+    display: block;
+    color: black;
+    padding: 16px;
+}
